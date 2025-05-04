@@ -8,10 +8,10 @@ const Subscription = () => {
     const onFormSubmit = (event) => {
         event.preventDefault()
         toast.success(() => {
-            return <div>
+            return <>
                 <h3>Successfully</h3>
                 <p>You will get news, here: {email}</p>
-            </div>
+            </>
         })
         setEmail("")
     }
