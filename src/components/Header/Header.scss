@@ -1,0 +1,125 @@
+.header{
+    height: 877px;
+    background: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+
+
+    .nav__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 23px;
+    
+        .nav__logo{
+            display: flex;
+            align-items: center;
+
+            p{
+                font-size: 16px;
+                font-weight: 500;
+                color: #FFFFFF;
+            }
+    
+            .header__image{
+                width: 27px;
+                height: 27px;
+            }
+        }
+
+        .nav__collection{
+            display: flex;
+            gap: 27px;
+
+            a{
+                color: #8B8E99;
+            }
+        }
+
+        .nav__icons{
+            display: flex;
+            gap: 15px;
+            color: white;
+
+            .search__icon{
+                width: 20px;
+                height: 23px;
+            }
+
+            .user__icon{
+                width: 20px;
+                height: 19px;
+            }
+
+            .cart__icon{
+                width: 21px;
+                height: 23px;
+            }
+        }
+    }
+
+    .hero__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 184px;
+        margin-top: 102px;
+
+        .hero__context{
+            display: flex;
+            flex-direction: column;
+            width: 457px;
+
+            h1{
+                font-size: 64px;
+                color: #FFFFFF;
+            }
+
+            .description{
+                font-family: "Poppins";
+            }
+
+            .search__wrapper{
+                width: 443px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 7px 9px 8px 19px;
+                background: #FFFFFF;
+                border-radius: 15px;
+                margin-top: 47px;
+
+                .icon__input__wrapper{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    input{
+                        border: none;
+                    }
+
+                    .search__icon{
+                        width: 21px;
+                        height: 21px;
+                        color: #3858D6;
+                    }
+                }
+
+                button{
+                    width: 112px;
+                    height: 45px;
+                    padding: 10px 6px 14px 6px;
+                    background: #3858D6;
+                    color: white;
+                    border-radius: 9px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    border: none;
+                }
+            }
+        }
+
+        .hero__image{
+            width: 461px;
+        }
+    }
+}
+

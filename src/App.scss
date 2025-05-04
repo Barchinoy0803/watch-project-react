@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.description {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    color: #8B8E99;
+}
+
+.sub__title {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #3858D6;
+}
+
+.product__human__name {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+}

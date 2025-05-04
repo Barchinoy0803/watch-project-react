@@ -1,0 +1,58 @@
+.products__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .product__card__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 49px;
+        flex-wrap: wrap;
+        margin-block: 65px 69px;
+
+        .product__card {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 98px) / 3;
+
+            .card__image {
+                padding: 29px 43px 27px 41px;
+                width: 100%;
+                background: #F6F6F6;
+            }
+
+            .card__body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+                margin-top: 11px;
+
+                .prices__wrapper {
+                    display: flex;
+                    gap: 3px;
+
+                    strike {
+                        color: #8B8E99;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .view__more__button {
+        width: 196px;
+        padding: 9px 9px;
+        background: #3858D6;
+        color: #ffff;
+        border: none;
+        border-radius: 15px;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+
+    }
+}

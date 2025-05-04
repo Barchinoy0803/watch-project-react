@@ -1,0 +1,21 @@
+.brands__wrapper {
+    display: flex;
+    margin-block: 73px 135px;
+    gap: 20px;
+}
+
+.brands__card {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    width: calc(100% - 40px) / 3;
+    background: #F6F6F6;
+    padding: 46px 29px 44px 41px;
+    border-radius: 22px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+}
